@@ -174,8 +174,7 @@ export function ModernAnimatedMarketingPageComponent() {
                 },
                 {
                   title: "Progress Tracking",
-                  description:
-                    "Watch your focus items move from &apos;to-do&apos; to &apos;done&apos;",
+                  description: "Watch your focus items move from to-do to done",
                 },
                 {
                   title: "Secure Authentication",
