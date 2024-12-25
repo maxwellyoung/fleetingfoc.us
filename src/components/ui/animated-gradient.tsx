@@ -6,7 +6,6 @@ import {
   useAnimationFrame,
   useMotionValue,
   useSpring,
-  useTransform,
 } from "framer-motion";
 
 interface AnimatedGradientProps {
@@ -70,7 +69,7 @@ export default function AnimatedGradient({
     const rect = ref.current.getBoundingClientRect();
     mouseX.set(rect.left + rect.width / 2);
     mouseY.set(rect.top + rect.height / 2);
-  }, []);
+  }, [mouseX, mouseY]);
 
   const gradientStyle = {
     background: `
