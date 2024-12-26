@@ -77,7 +77,7 @@ export function ModernAnimatedMarketingPageComponent() {
 
   const sequence = [
     {
-      text: "Where focus feels impossible...",
+      text: "When focus feels impossible...",
       gradient: "from-[#12172B] via-[#1A1F35] to-[#12172B]",
     },
     {
